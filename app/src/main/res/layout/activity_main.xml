@@ -5,17 +5,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/music_backgroud"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="24dp"
-    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="445dp"
         android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
-        android:text="MUSIC APP"
+        android:text="SonicScape"
+        android:textColor="#9C27B0"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -23,15 +25,15 @@
         android:id="@+id/addButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Playlist"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="Add Playlist" />
 
     <Button
         android:id="@+id/viewPlaylistButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Next"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="Next" />
 
     <Button
         android:id="@+id/exitButton"

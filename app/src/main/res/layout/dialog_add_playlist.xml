@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/music_backgroud_4"
     android:orientation="vertical"
     android:padding="20dp">
 
@@ -10,7 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Song Title"
-        android:inputType="textCapWords"/>
+        android:inputType="textCapWords"
+        android:textColorHint="#F4F1F1"
+        android:textSize="48dp" />
 
     <EditText
         android:id="@+id/editDialogArtist"
@@ -18,7 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="Artist Name"
-        android:inputType="textCapWords"/>
+        android:inputType="textCapWords"
+        android:textColorHint="@color/white"
+        android:textSize="48dp" />
 
     <EditText
         android:id="@+id/editDialogRate"
@@ -26,7 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="Rating (e.g., 4/5)"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:textColorHint="#F4F2F2"
+        android:textSize="48dp" />
 
     <EditText
         android:id="@+id/editDialogComment"
@@ -34,5 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="Comment"
-        android:inputType="textCapSentences"/>
+        android:inputType="textCapSentences"
+        android:textColorHint="#EDE9E9"
+        android:textSize="48dp" />
 </LinearLayout>
