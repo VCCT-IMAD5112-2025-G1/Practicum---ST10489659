@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "za.co.varsitycollege.st10489659_practicum"
+    namespace = "za.co.varsitycollege.memousic"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "za.co.varsitycollege.st10489659_practicum"
+        applicationId = "za.co.varsitycollege.memousic"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
