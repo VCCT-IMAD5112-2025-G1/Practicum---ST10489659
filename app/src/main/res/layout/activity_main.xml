@@ -19,28 +19,32 @@
         android:text="SonicScape"
         android:textColor="#9C27B0"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/addButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Add Playlist" />
+        android:text="Add Playlist"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/viewPlaylistButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Next" />
+        android:text="Next"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/exitButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text="Exit" />
+        android:text="Exit"
+        tools:ignore="HardcodedText,InefficientWeight" />
 
 </LinearLayout>
 
